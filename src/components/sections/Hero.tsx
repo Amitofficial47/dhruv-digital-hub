@@ -70,7 +70,7 @@ export default function Hero() {
           </div>
 
           {/* STATS SECTION */}
-          <div className="mt-16 grid grid-cols-2 gap-6 lg:grid-cols-4">
+          {/* <div className="mt-16 grid grid-cols-2 gap-6 lg:grid-cols-4">
 
             <div className="rounded-3xl border border-white/30 bg-white/70 p-7 text-center shadow-lg backdrop-blur-xl">
 
@@ -120,7 +120,7 @@ export default function Hero() {
 
             </div>
 
-          </div>
+          </div> */}
         </div>
 
         {/* RIGHT SIDE FLOATING CARDS */}

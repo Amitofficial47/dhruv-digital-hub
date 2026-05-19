@@ -267,7 +267,7 @@ export default function Footer() {
                   </p>
 
                   <p className="mt-1 font-medium">
-                    Haryana, India
+                    Rohtak,Haryana,Delhi India
                   </p>
 
                 </div>

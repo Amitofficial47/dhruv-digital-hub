@@ -1,5 +1,7 @@
+import FounderSection from "@/components/sections/FounderSection";
 import Hero from "@/components/sections/Hero";
-import CampaignPackages from "@/components/sections/campaign-packages";
+// import CampaignPackages from "@/components/sections/campaign-packages";
+// import ContactSection from "@/components/sections/contact-section";
 import CoreServices from "@/components/sections/core-services";
 import Industries from "@/components/sections/industries";
 import WhyChooseUs from "@/components/sections/why-choose-us";
@@ -11,11 +13,13 @@ export default function Home() {
       
       {/* HERO SECTION */}
       <Hero />
+      <FounderSection />
       <CoreServices />
       <Industries />
       <WhyChooseUs />
       <WorkingProcess />
-      <CampaignPackages />
+      {/* <CampaignPackages /> */}
+      {/* <ContactSection /> */}
     </main>
   );
 }
